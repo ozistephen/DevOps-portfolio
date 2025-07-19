@@ -45,14 +45,3 @@ resource "aws_ecs_service" "app" {
 
   depends_on = [aws_ecs_task_definition.app]
 }
-
-module "ecs" {
-  source              = "../../modules/ecs"
-  name                = var.name
-  container_image     = var.container_image
-  subnet_ids          = module.vpc.public_subnet_ids
-  security_group_id   = module.alb.alb_security_group_id
-  target_group_arn    = module.alb.target_group_arn
-  execution_role_arn  = module.iam.execution_role_arn
-  task_role_arn       = module.iam.execution_role_arn # Using same role for now
-}

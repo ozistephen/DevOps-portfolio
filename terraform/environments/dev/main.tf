@@ -22,3 +22,21 @@ module "iam" {
   source = "../../modules/iam"
   name   = var.name
 }
+
+module "ecr" {
+  source = "../../modules/ecr"
+  name   = var.name
+}
+
+
+
+module "ecs" {
+  source              = "../../modules/ecs"
+  name                = var.name
+  container_image     = "${module.ecr.repository_url}:latest"
+  subnet_ids          = module.vpc.public_subnet_ids
+  security_group_id   = module.alb.alb_security_group_id
+  target_group_arn    = module.alb.target_group_arn
+  execution_role_arn  = module.iam.execution_role_arn
+  task_role_arn       = module.iam.execution_role_arn
+}

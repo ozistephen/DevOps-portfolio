@@ -6,6 +6,3 @@ azs = ["eu-west-2a", "eu-west-2b"]
 
 
 #container_image = "your-ecr-repo-url"  # We’ll replace this after ECR setup & CI
-
-
-container_image = "${module.ecr.repository_url}:latest"

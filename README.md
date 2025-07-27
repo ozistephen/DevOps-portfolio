@@ -14,6 +14,25 @@ This project demonstrates end-to-end DevOps skills using Terraform and GitHub Ac
 - **CloudWatch Logs**
 - 🔜 *(coming soon)* **Architecture Diagram (draw.io)**
 
+
+
+## 📸 Screenshots
+
+### 🔹 Deployed App in Browser
+![App in Browser](./screenshots/app-browser.png)
+
+### 🔹 ECS Cluster & Running Service
+![ECS Cluster](./screenshots/ecs-cluster.png)
+
+### 🔹 ECR Image for Deployment
+![ECR Service](./screenshots/ecr-service.png)
+
+### 🔹 GitHub Actions CI/CD Pipeline
+![GitHub Actions](./screenshots/github-actions.png)
+
+
+
+
 ## 🌍 Live App URL
 [http://devops-portfolio-alb-xxxx.eu-west-2.elb.amazonaws.com](http://devops-portfolio-alb-xxxx.eu-west-2.elb.amazonaws.com)
 

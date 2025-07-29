@@ -34,7 +34,7 @@ This project demonstrates end-to-end DevOps skills using Terraform and GitHub Ac
 
 
 ## 🌍 Live App URL
-[http://devops-portfolio-alb-xxxx.eu-west-2.elb.amazonaws.com](devops-portfolio-alb-2081870736.eu-west-2.elb.amazonaws.com)
+[http://devops-portfolio-alb-2081870736.eu-west-2.elb.amazonaws.com](http://devops-portfolio-alb-2081870736.eu-west-2.elb.amazonaws.com)
 
 ---
 

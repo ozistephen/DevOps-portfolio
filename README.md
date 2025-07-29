@@ -12,7 +12,7 @@ This project demonstrates end-to-end DevOps skills using Terraform and GitHub Ac
 - **ECR** for Docker images
 - **IAM Roles** for task/execution
 - **CloudWatch Logs**
-- 🔜 *(coming soon)* **Architecture Diagram (draw.io)**
+
 
 
 
@@ -34,9 +34,7 @@ This project demonstrates end-to-end DevOps skills using Terraform and GitHub Ac
 
 
 ## 🌍 Live App URL
-[http://devops-portfolio-alb-xxxx.eu-west-2.elb.amazonaws.com](http://devops-portfolio-alb-xxxx.eu-west-2.elb.amazonaws.com)
-
-> Replace this with your actual ALB DNS URL above 👆
+[http://devops-portfolio-alb-xxxx.eu-west-2.elb.amazonaws.com](devops-portfolio-alb-2081870736.eu-west-2.elb.amazonaws.com)
 
 ---
 
